@@ -1,16 +1,36 @@
+.btn {
+    border-radius: 0px;
+    font-family: 'Fira Sans', sans-serif;
+    color: #F8F8F8;
+    background: black;
+    border-color: white;
+
+
+}
+
+.btn:hover {
+  background-color: white;
+}
+
+.btn:focus {
+  background-color: black;
+  border: white;
+}
+
 li {
 	list-style-type: none;
 	color:black;
 	font-family: 'Fira Sans', sans-serif;
-	font-size: 32px;
+	font-size: 30px;
 	color: white;
 }
 
 h1 {
 
-text-align: left;
-font-family: 'Fira Sans', sans-serif;
-color: white;
+	text-align: left;
+	font-family: 'Fira Sans', sans-serif;
+	color: white;
+
 
 }
 
@@ -30,10 +50,3 @@ body {
 	background: black;
 }
 
-button {
-	background: white;
-	color:black;
-	font-family: 'Fira Sans', sans-serif;
-	
-
-}
